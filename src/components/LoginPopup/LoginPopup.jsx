@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./LoginPopup.css";
 import { assets } from "../../assets/assets";
 const LoginPopup = ({ setShowLogin }) => {
-  const [currState, setCurrState] = useState("Sign Up");
+  const [currState, setCurrState] = useState("Login");
   return (
     <div className="login-popup">
       <form action="" className="login-popup-container">
